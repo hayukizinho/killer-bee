@@ -232,4 +232,4 @@ async def on_message(message):
             await client.send_message(message.channel, "Error: [{error}]".format(error=error))
 
 
-client.run('NjI5NTIxMjgwNDcwODc2MTcw.XZa9cg.T03P5a1ad-QgyhvsxqbRHZ1Z6Cc')
+client.run('NjI5NTIxMjgwNDcwODc2MTcw.XZbA0Q.SuvQzaRy-waJA-Gr2euck1GAn84')
