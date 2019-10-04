@@ -19,7 +19,7 @@ async def on_ready():
 async def on_member_join(member):
     canal = client.get_channel("550864250298564610")
     regras = client.get_channel("551627572144766978")
-    msg = "Bem vindo ao puteiro, {}, sou o BOT - {}".format(member.mention, client.user.name)
+    msg = "Bem vindo ao puteiro {}, sou o BOT - {}".format(member.mention, client.user.name)
     await client.send_message(canal, msg)
 
 @client.event
