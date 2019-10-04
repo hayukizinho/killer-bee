@@ -19,13 +19,13 @@ async def on_ready():
 async def on_member_join(member):
     canal = client.get_channel("550864250298564610")
     regras = client.get_channel("551627572144766978")
-    msg = "Bem-Vindo {}, Sou o BOT {}".format(member.mention, client.user.name)
+    msg = "Bem vindo ao puteiro, {}, sou o BOT - {}".format(member.mention, client.user.name)
     await client.send_message(canal, msg)
 
 @client.event
 async def on_member_remove(member):
     canal = client.get_channel("550864250298564610")
-    msg = "Vá com Deus {}".format(member.mention)
+    msg = "Vá e não volte irmão {}".format(member.mention)
     await client.send_message(canal, msg)
 
 @client.event
@@ -232,4 +232,4 @@ async def on_message(message):
             await client.send_message(message.channel, "Error: [{error}]".format(error=error))
 
 
-client.run('NTUwODY0OTc5MjM5MTA4NjM4.D1zYlQ.ilJuFrlySDKmSXxrXz4cxjUYnGY')
+client.run('NjI5NTIxMjgwNDcwODc2MTcw.XZa9cg.T03P5a1ad-QgyhvsxqbRHZ1Z6Cc')
